@@ -4,7 +4,6 @@ import { LuBell } from "react-icons/lu";
 import { FaAngleDown } from "react-icons/fa6";
 
 
-import { Link } from 'react-router-dom'
 import Icon from '../../Icon';
 
 const Navbar = () => {

@@ -1,4 +1,3 @@
-
 import './App.css'
 import Content from './components/Content/Content'
 import Hero from './components/Hero/Hero'
@@ -10,7 +9,7 @@ function App() {
 
   return (
     <>
-  
+    
     <Navbar/>
     <Hero />
     <Content/>

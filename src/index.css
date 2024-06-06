@@ -69,6 +69,11 @@ line-height: 17.64px;
   gap: 32px;
   background-color: transparent;
   font-weight: 500;
+  transition: all 0.5s ease-in-out;
+}
+.startBtn:hover{
+  background-color:#010205;
+  color: #FFF;
 }
 .notificationBtn{
   cursor: pointer;
@@ -80,6 +85,12 @@ line-height: 17.64px;
   padding: 13px 16px 13px 16px ;
   background-color: #010205;
   color: #FFF;
+  transition: all 0.2s ease-in;
+
+}
+.notificationBtn:hover{
+  
+  transform: scale(1.1) rotate(20deg);
 }
 
 /* End of Navbar part */
@@ -134,29 +145,57 @@ line-height: 17.64px;
   cursor: pointer;
 }
 
-.btn1{
+
+.btn1 {
   background-color: #010205;
   color: #FFF;
-  padding: 16px 32px 16px 32px;
+  padding: 16px 32px;
   border-radius: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 42px;
+  transition: all 0.3s ease-in-out;
+}
 
-}
-.btn1 p{
+.btn1 p {
   color: #FFF;
+  margin: 0; 
 }
-.btn2{
+
+.btn1 .arrow {
+  transition: transform 0.3s ease-in-out; 
+}
+
+.btn1:hover {
+  background-color: #878C91;
+  color: #010205; /* Button text color */
+  transform: scale(1.1);
+}
+
+.btn1:hover p {
+  color: #FFF; 
+}
+
+.btn1:hover .arrow {
+  transform: scale(1.5); 
+}
+
+.btn2 {
   width: 130px;
-  height: 12px;
+  height: auto; 
   font-weight: 600;
   font-size: 16px;
   background-color: transparent;
   line-height: 28.8px;
   color: #010205;
   text-decoration: underline;
+  transition: all 0.3s ease-out;
+}
+
+.btn2:hover {
+  transform: scaleX(1.1);
+  text-decoration: dotted;
 }
 
 .secondArea{

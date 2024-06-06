@@ -17,7 +17,8 @@ const Hero = () => {
                     <button className='btn1'>
                         
                        <p>Schedule Call </p> 
-                        <FaArrowRight /> </button>
+                        <FaArrowRight className='arrow' />
+                         </button>
                     <button className='btn2'>View Case Study</button>
                 </div>
             </div>
