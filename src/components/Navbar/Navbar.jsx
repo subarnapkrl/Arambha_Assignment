@@ -5,6 +5,7 @@ import { FaAngleDown } from "react-icons/fa6";
 
 
 import Icon from '../../Icon';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -22,7 +23,10 @@ const Navbar = () => {
                 linkData.map((links)=>(
                     <ul className='lists' key={links.id}>
                         <li>
+                            <Link to={'/progress'} className='navLink'>
                             {links.name}
+                            </Link>
+                            
                          <FaAngleDown />
                             </li>
                     </ul>
@@ -30,9 +34,9 @@ const Navbar = () => {
             }
         </div>
         <div className="notifications">
-            <button className="startBtn">
+            <Link to={'/progress'} className="startBtn">
                 Get Started
-            </button>
+            </Link>
             <div className="notificationBtn">
                 <LuBell width={'18px'} height={'15px'} />
 

@@ -1,19 +1,20 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
-import Content from './components/Content/Content'
-import Hero from './components/Hero/Hero'
-import Navbar from './components/Navbar/Navbar'
+
+import MainPage from './pages/MainPage';
+import Progress from './pages/Progress';
 
 
 function App() {
   
 
   return (
-    <>
-    
-    <Navbar/>
-    <Hero />
-    <Content/>
-    </>
+     <Router>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/progress" element={<Progress />} />
+      </Routes>
+    </Router>
      
   )
 }

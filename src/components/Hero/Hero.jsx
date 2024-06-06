@@ -5,6 +5,7 @@ import SecondIcon from '../../svgs/Second';
 import ThirdIcon from '../../svgs/Third';
 import SmallIcon from '../../svgs/Small';
 import CompanyIcon from '../../svgs/Company';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -14,12 +15,12 @@ const Hero = () => {
                 <h1>Stay ahead of the curve with our forward-thinking </h1>
                 <p>An award-winning SEO agency with disciplines in digital marketing, design, and website development. focused on understanding you.</p>
                 <div className="cta">
-                    <button className='btn1'>
+                    <Link to={'/progress'} className='btn1'>
                         
                        <p>Schedule Call </p> 
                         <FaArrowRight className='arrow' />
-                         </button>
-                    <button className='btn2'>View Case Study</button>
+                         </Link>
+                    <Link to={'/progress'} className='btn2'>View Case Study</Link>
                 </div>
             </div>
             <div className="secondArea">
