@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+
+
+/* Navbar Styling Completed */
+.navbar{
+  height: 110px;
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px 30px 80px;
+}
+.logoArea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.logoHeading{
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32.78px;
+  letter-spacing: -5%;
+}
+.links{
+  display: flex;
+  gap: 74px;
+  
+ 
+}
+.links li{
+  display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 20px;
+cursor: pointer;
+font-weight: 600;
+font-size: 14px;
+line-height: 17.64px;
+
+}
+
+.lists li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+}
+
+.notifications{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.startBtn {
+  cursor: pointer;
+  width: 156px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid #010205;
+  padding: 13px 16px 13px 16px;
+  gap: 32px;
+  background-color: transparent;
+  font-weight: 500;
+}
+.notificationBtn{
+  cursor: pointer;
+  display: flex ;
+  align-items: center;
+    width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 13px 16px 13px 16px ;
+  background-color: #010205;
+  color: #FFF;
+}
+
+/* End of Navbar part */
+
+
+
+
+.areas{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  
+   max-width: 1440px;
+  height: 775px;
+  background-color: #FFF;
+  padding: 30px 80px 30px 80px;
+}
+
+.firstArea{
+  display: flex;
+  flex-direction: column;
+ width: 700px;
+
+ gap: 48px;
+  
+
+}
+.firstArea h1{
+  
+  font-weight: 600;
+  font-size: 72px;
+  letter-spacing: -3%;
+  line-height: 79.2px;
+}
+
+.firstArea p{
+  font-weight: 500;
+  color: #878C91;
+  line-height: 28.8px;
+  font-size: 16px;
+}
+
+.cta{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 42px;
+}
+.cta button{
+ 
+  border: none;
+  cursor: pointer;
+}
+
+.btn1{
+  background-color: #010205;
+  color: #FFF;
+  padding: 16px 32px 16px 32px;
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
+
+}
+.btn1 p{
+  color: #FFF;
+}
+.btn2{
+  width: 130px;
+  height: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: transparent;
+  line-height: 28.8px;
+  color: #010205;
+  text-decoration: underline;
+}
+
+.secondArea{
+  margin: 0 8px;
+  position: relative;
+  
+}
+.secondArea>:nth-child(1){
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.secondArea>:nth-child(2){
+  
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+.secondArea>:nth-child(4){
+  position: absolute;
+  top: -30px;
+  left: 90px;
+}
+.thirdArea{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 42px;
+  margin-top: 0;
+}
+.moto p{
+  font-weight: 600;
+  font-size: 14px;
+  max-width: 150px;
+  height: 32px;
+  line-height: 22.4px;
+}
+
+.section{
+  max-width: 1440px;
+ height: 716px;
+  background-color: #FFF;
+  padding: 30px 80px 30px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+ 
+}
+.area1{
+   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 42px;
+}
+.area1 h1{
+  max-width: 684px;
+  
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 62.4px;
+  letter-spacing: -3%;
+}
+
+.area1 p{
+  font-weight: 500;
+  max-width: 557px;
+  font-size:16px ;
+  line-height: 28.8px;
+  color:#878C91;
+}
+
+.area2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.area2 img{
+  border-radius: 30px;
+  border: none;
+}
